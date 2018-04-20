@@ -3,6 +3,6 @@
   "git.confirmSync": false,
   "editor.mouseWheelZoom": true,
   "scm.alwaysShowProviders": true,
-  "editor.renderControlCharacters": true,
+  "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "all"
 }
