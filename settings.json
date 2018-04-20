@@ -1,0 +1,8 @@
+{
+  "editor.tabSize": 2,
+  "git.confirmSync": false,
+  "editor.mouseWheelZoom": true,
+  "scm.alwaysShowProviders": true,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all"
+}
