@@ -11,3 +11,9 @@ try {
   Copy-Item .\powershell.json $env:APPDATA\Code\User\snippets\ -ErrorAction Stop
 }
 catch {Write-Warning "File copy did not work"}
+
+$GitConfig = git config --list | Where-Object {$_ -match 'user\.name'}
+if ($GitConfig -notmatch 'user\.name\=Brent Denny') {
+  git config --global user.name "Brent Denny"
+  git config --global user.email "brent.denny@ddls.com.au"
+}
