@@ -14,6 +14,11 @@ catch {Write-Warning "File copy did not work"}
 
 $GitConfig = git config --list | Where-Object {$_ -match 'user\.name'}
 if ($GitConfig -notmatch 'user\.name\=Brent Denny') {
-  git config --global user.name "Brent Denny"
-  git config --global user.email "brent.denny@ddls.com.au"
+  try {
+    Invoke-Command -ScriptBlock {git config --global user.name "Brent Denny"} -ErrorAction Stop
+    Invoke-Command -ScriptBlock {git config --global user.email "brent.denny@ddls.com.au"} -ErrorAction Stop
+  }
+  catch {
+    Write-Warning 'The git command did not work'
+  }
 }
