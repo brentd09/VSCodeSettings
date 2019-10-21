@@ -3,5 +3,5 @@
   "git.confirmSync": false,
   "editor.mouseWheelZoom": true,
   "editor.renderControlCharacters": false,
-  "editor.renderWhitespace": "all"
+  "editor.renderWhitespace": "selection"
 }
