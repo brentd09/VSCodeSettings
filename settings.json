@@ -1,7 +1,28 @@
 {
-  "editor.tabSize": 2,
-  "git.confirmSync": false,
-  "editor.mouseWheelZoom": true,
-  "editor.renderControlCharacters": false,
-  "editor.renderWhitespace": "selection"
+    "workbench.colorTheme": "PowerShell ISE",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#faf5ac77",
+        "editor.selectionBackground": "#ff91004b",
+        "editor.selectionHighlightBackground": "#ffd57b18",
+        "editor.selectionHighlightBorder": "#0505052d",
+        "editor.wordHighlightBackground": "#02c44315",
+        "editor.wordHighlightTextBackground": "#02c5221e",
+        "editor.wordHighlightStrongBackground": "#3002fd0c"
+    },
+    "files.defaultLanguage": "powershell",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "interactiveSession.editor.fontSize": 15,
+    "editor.tabSize": 2,
+    "editor.tabCompletion": "on",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.fontSize": 15,
+    "scm.inputFontSize": 15,
+    "debug.console.fontSize": 15,
+    "terminal.integrated.fontSize": 15,
+    "chat.editor.fontSize": 15,
+    "markdown.preview.fontSize": 15,
+    "terminal.integrated.tabStopWidth": 2,
+    "editor.detectIndentation": false
 }
